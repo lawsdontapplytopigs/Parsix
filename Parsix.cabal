@@ -20,7 +20,7 @@ source-repository head
 library
     hs-source-dirs: src
     exposed-modules:
-        Parsix.hs
+        Parsix
     -- other-modules:
     -- other-extensions:
     build-depends:       base >=4.14 && <4.15
