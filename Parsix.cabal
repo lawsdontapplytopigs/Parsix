@@ -17,7 +17,7 @@ source-repository head
     type : git
     location : git://github.com/lawsdontapplytopigs/Parsix.git
 
-library Parsix
+library
     hs-source-dirs: src
     exposed-modules:
         Parsix

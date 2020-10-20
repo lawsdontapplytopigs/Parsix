@@ -58,8 +58,6 @@ validChar isValid =
     in
         Parser check
 
-                Nothing
-
 -- operators inspired by elm
 
 -- TODO
@@ -91,6 +89,7 @@ oneOrMore (Parser parse) =
             Just (rest, parsed) ->
                 accumulate (Parser parse) [parsed] rest
             Nothing ->
+                Nothing
 
 andThen :: (a -> Parser b) -> Parser a -> Parser b
 andThen func (Parser run) =
