@@ -2,7 +2,8 @@
 
 #### An intuitive parser combinator library
 
-### THE API IS UNSTABLE
+### THE API IS UNSTABLE, INCOMPLETE, AND UNDOCUMMENTED
+Basically, don't use this yet
 
 Currently the library works and does the job, but the api is likely to change in the future.
 So far I have implemented a json parser with this library. You can find it [here](https://github.com/lawsdontapplytopigs/Jsoff).
